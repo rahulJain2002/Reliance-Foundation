@@ -31,7 +31,7 @@ for(let i=1; i<=9; i++){
     mainBox.append(container);
 }
 
-fetch("https://raw.githubusercontent.com/rahulJain2002/Reliance-Foundation/master/posts.json?token=GHSAT0AAAAAABVCBDKU7SXSCJNC6JW6NDQEYWW25FA")
+fetch("https://raw.githubusercontent.com/rahulJain2002/Reliance-Foundation/master/posts.json")
     .then((response) => {
         return response.json()
     })
